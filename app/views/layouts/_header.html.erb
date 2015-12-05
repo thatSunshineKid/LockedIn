@@ -1,13 +1,13 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "Small Wins", '#', id: "logo" %>
+    <%= link_to "Locked In", '#', id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home",   root_path %></li>
-        <li><%= link_to "Help",   'help' %></li>
+        <li><%= link_to "What is Locked-In?",   'help' %></li>
         <li><%= link_to "Blog", 'blog' %></li>
         <li><%= link_to "Contact", 'contact' %></li>
-        <li><%= link_to "Purpose", 'purpose' %></li>
+        <li><%= link_to "How To Use Locked-In", 'purpose' %></li>
         <% if logged_in? %>
           <li><%= link_to "Users", users_path %></li>
           <li class="dropdown">
