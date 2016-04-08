@@ -129,6 +129,8 @@ section {
 
 textarea {
   resize: vertical;
+  font-size: 20px;
+  text-align: center;
 }
 
 .center {
@@ -203,6 +205,15 @@ p {
       display: block;
       padding: 5px 0;
     }
+  }
+  .content-feed {
+    font-size: 19px;
+    margin-top: 6px;
+    font-family: Papyrus, fantasy;
+  }
+  .field-text {
+    font-size: 20px;
+    font-color: #3E648A;
   }
   .action {
     display: block;
