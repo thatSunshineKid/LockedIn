@@ -1,7 +1,8 @@
-== README
+== Noted
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Noted is an application that makes it easy to keep all your random notes for remembering things in one place. Instead of using sticky notes or a journal, simply write down and save any idea or thought you want to remember, and why you need to remember it, and then you can easily access that note and see when it was written.
+
+
 
 Things you may want to cover:
 
