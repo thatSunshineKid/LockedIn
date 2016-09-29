@@ -5,9 +5,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "More About Noted",   'help' %></li>
-        <li><%= link_to "Random Thoughts", 'blog' %></li>
         <li><%= link_to "Contact Me", 'contact' %></li>
-        <li><%= link_to "Why this Exists", 'purpose' %></li>
         <% if logged_in? %>
           <li><%= link_to "Users", users_path %></li>
           <li class="dropdown">
